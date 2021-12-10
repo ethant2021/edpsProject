@@ -1,0 +1,541 @@
+html, body {
+    width:100%;
+    height:100%;
+    background:#000;
+    position:relative;
+    white-space: nowrap;
+    font-family: 'Fira Code', monospace;
+
+  }
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+.main{
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+  .name{
+
+    line-height: 90px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: calc(30%/2);
+    width: 70%;
+    color: white;
+    font-size: 7vw;
+     
+    
+  }
+
+  .smaller{
+
+    line-height: 75px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: calc(55%/2);
+    width: 45%;
+    color: white;
+    font-size: 4vw;
+    transform: scale(1, 1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .nav-selections {
+    font-size: 2vw;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  .projTitle{
+    left: 33%;
+    top: 35%;
+    transform: scale(0, 0);
+  }
+  .contactTitle{
+    right: 33%;
+    top: 35%;
+    transform: scale(0, 0);
+  }
+  .comeInContactTitle{
+    right: 33%;
+    top: 35%;
+    transform: scale(1, 1);
+    transition: 0.5s ease-in-out;
+  }
+
+  .comeInprojTitle{
+    left: 33%;
+    top: 35%;
+    transform: scale(1, 1);
+    transition: 0.5s ease-in-out;
+  }
+.comeInprojTitle:hover{
+  color: darkgray;
+}
+.comeInContactTitle:hover{
+  color: darkgray;
+  }
+.comeInaboutTitle:hover{
+  color:darkgray;
+}
+.comeInCertTitle:hover{
+  color:darkgray;
+}
+.smaller:hover{
+  color: darkgray;
+
+
+}
+  .aboutTitle{
+    left: 20%;
+    top: 35%;
+    transform: scale(0, 0);
+  }
+  .certTitle{
+    right: 20%;
+    top: 35%;
+    transform: scale(0, 0);
+  }
+  .comeInCertTitle{
+    right: 20%;
+    top: 35%;
+    transform: scale(1, 1);
+    transition: 0.5s ease-in-out;
+  }
+
+  .comeInaboutTitle{
+    left: 20%;
+    top: 35%;
+    transform: scale(1, 1);
+    transition: 0.5s ease-in-out;
+  }
+
+
+  /* @keyframes shake2 { from { right: 32.75%; } 50% { right: 33.25%; } to { right: 32.75%; } }
+  @keyframes shake1 { from { left: 32.75%; } 50% { left: 33.25%; } to { left: 32.75%; } }
+  @keyframes shake3 { from { left: 1%; } 50% { left: .5%; } to { left: 0%; } }
+  .shake1{
+    animation: shake1 2s infinite;
+  }
+  .shake2{
+    animation: shake2 2s infinite;
+  }
+
+  .shake3{
+    animation: shake3 2s infinite;
+  } */
+
+
+.hyper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#projectsln2{
+  position: absolute; 
+  width: 100%;
+  height: 85%;
+  top: 170%;
+  display: flex;
+}
+
+#projectsln2 div{
+  width: 30%;
+  margin: calc(10%/3);
+  height: 60%;
+  background-color: gray;
+  opacity: .85;
+  
+  }
+  #projectsln2 div button{
+    width: 100%;
+    height: 100%;
+  }
+  #projectsln2 div button img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+#projects{
+  position: absolute; 
+  width: 100%;
+  height: 85%;
+  top: 80%;
+  display: flex;
+}  
+#projects div{
+width: 30%;
+margin: calc(10%/3);
+height: 60%;
+background-color: gray;
+opacity: .85;
+
+}
+#projects div button{
+  width: 100%;
+  height: 100%;
+}
+#projects div button img{
+  width: 100%;
+  height: 100%;
+}
+.RPSgame{
+  position: absolute; 
+  width: 85%;
+  height: 45%;
+  top: 105%;
+  display: flex;
+  background-color: gray;
+  left: calc(15%/2);
+  opacity: 9.5;
+}  
+.RPSgame div{
+  width: 30%;
+  height: auto;
+  margin: calc(10%/6);
+  background-color: darkgray;
+}
+.RPSgame div img{
+  height: 100%;
+  width: 100%;
+}
+.TTT{
+  position: absolute; 
+  width: 85%;
+  height: 65%;
+  top: 105%;
+  display: flex;
+  background-color: gray;
+  left: calc(15%/2);
+  opacity: 9.5;
+}  
+
+.RESET{
+  left: .2%;
+  top: .2%;
+  width: 5%;
+  height: 7.5%;
+  justify-content: center;
+  position: absolute;
+
+}
+
+.close{
+  right: .2%;
+  top: .2%;
+  background-color: red;
+  width: 5%;
+  height: 7.5%;
+  justify-content: center;
+  position: absolute;
+
+}
+
+
+.TTT{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gameManager{
+  left: 50%;
+  position: absolute;
+  }
+
+.TTT div{
+    border: black 3px solid;
+    width: 27.5%;
+    margin: 2.5%;
+    height: 20%;
+
+}
+.TTT div button{
+    width: 100%;
+    height: 100%;
+    background-color: #cccccc;
+}
+.TTT div button p{
+  font-size: 30px;
+}
+
+.cover{
+  background-color: black;
+  height: 110%;
+  width: 110%;
+  left: -10%;
+  top: -10%;
+  position: absolute;
+}
+#centeredQuote{
+  padding-left: 12.5%;
+  font-size: 1.85vw;
+
+
+}
+.about{
+  position: absolute; 
+  width: 95%;
+  height: 115%;
+  top: 75%;
+  background-color: gray;
+  left: 2.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.1vh;
+  opacity: .95;
+
+}  
+.about h1{
+  left: 5%;
+  position: absolute;
+  opacity: 1;
+}
+.about img{
+  width: 27.5%;
+  top: 4.5%;
+  right: 1.5%;
+  position: absolute;
+  opacity: 1;
+}
+
+.bioHolder{
+  width: 50%;
+  height: 60%;
+  top: 10%;
+  left: 2.5%;
+  position: absolute;
+  display: inline;
+  opacity: 1;
+}
+
+
+
+.contact{
+  position: absolute; 
+  width: 95%;
+  height: 65%;
+  top: 75%;
+  background-color: gray;
+  left: 2.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  opacity: .95;
+}
+.contact img:hover{
+  background-color: darkgray;
+}
+.contact p:hover{
+  color: darkgray;
+}
+
+#social{
+  left: 60%;
+  height: 100%;
+  width: 40%;
+  background-color: gray;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+#social div{
+left: 25%;
+width: 50%;
+height: 10%;
+margin-left: 25%;
+margin-top: 7.5%;
+border: 0;
+outline: none;
+
+}
+#social p{
+  font-size: 2.25vw;
+  color: black;
+  margin: 0px;
+  padding-left: 25%;
+  border: 0;
+  outline: none;
+}
+#social a{
+  text-decoration: none;
+}
+
+#social img{
+  height: 100%;
+  float: left;
+  width: 25%;
+  border: 0;
+  outline: none;
+}
+
+.emailBox{
+  height: 25%;
+  width: 50%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: turquoise;
+}
+
+
+
+
+.bioHolder{
+  top: 18%;
+  left: 2.5%;
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  white-space: normal;
+  inline-size: 60;
+}  
+.bioHolder p{
+  inline-size: 60;
+  white-space: normal;
+}
+
+.about{
+  left: 4%;
+  font-size: 1.5vw;
+}
+
+.about span{
+  font-weight: 700;
+}
+.achieve{
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  font-size: 2%;
+
+}
+.achievements h1{
+  top: 45%;
+  left: 4%;
+  font-size: 175%;
+}
+.prgrm{
+  position: absolute;
+  top: 100%;
+  left: 2.5%;
+
+}
+
+
+
+
+.contactSectTitle{
+  position: absolute;
+  left: 2.5%;
+  top: 5%;
+  
+}
+
+.emailName{
+  left: 1.5%;
+  position: absolute;
+  top: 20%;
+}
+.nameMsg{
+  left: 1.5%;
+  position: absolute;
+  top: 40;
+  width: 900%;
+  height: 300%;
+}
+
+.Email{
+  left: 1.5%;
+  position: absolute;
+  top:  35%;
+}
+.address{
+  left: 1.5%;
+  position: absolute;
+  top: 40;
+  width: 750%;
+  height: 300%;
+}
+.emailContents{
+  left: 1.5%;
+  position: absolute;
+  top:  50%;
+}
+.emailcontentsbox{
+  left: 1.5%;
+  position: absolute;
+  top: 40;
+  width: 900%;
+  height: 600%;
+}
+.formSubmit{
+  top: 75%;
+  width: 10%;
+  left: 1.5%;
+  position: absolute;
+  height: 10%;
+}
+
+
+
+
+
+
+
+
+.certs{
+  position: absolute; 
+  width: 95%;
+  height: 65%;
+  top: 75%;
+  background-color: gray;
+  left: 2.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 2vw;
+  opacity: .95;
+
+}  
+.certs div{
+  width: 20%;
+  height: 50%;
+  background-color: rgb(46, 45, 45);
+  color: white;
+  margin: calc(20%/8);
+  margin-top: 10%;
+  font-size: 1.25vw;
+}
+.certs h1{
+  position: absolute;
+  left: 5%;
+  font-size: 2vw;
+}
+.title{
+  font-size: 2vw;
+  font-weight: 700;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/png" sizes="32x32" href="imgs/ethanfavi.png">
+        <title>ethan</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- jquery -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.js"></script>
+
+        
+
+    </head>
+    <body>
+        <div class="main">
+        <div class="cover"></div>
+
+        <div class="hyper">
+        <!-- hyperlinks-->
+        <nav class="navBar">
+            <h2 class="projTitle nav-selections projectBroke">projects</h2>
+            <h2 class="contactTitle nav-selections contactBroke">contact</h2>
+            <h2 class="aboutTitle nav-selections aboutBroke">about</h2>
+            <h2 class="certTitle nav-selections certBroke">skills</h2>
+        </nav>
+        <!-- hyperlinks-->
+
+        </div>
+         <div class="container"><!-- name animatoin stuff-->
+
+            <span class="name shake3 ethan"> ethan thackery</span>
+
+        </div><!-- name stuff-->
+
+
+
+
+<!--project section-->
+        <div id="projects"> <!-- change out img to local-->
+            <div class="project"><button class="TTTshow"><!--Tic Tac Toe-->
+                <img src="imgs/tictacatoe.png" alt="tictactoe">
+
+            </button>
+        </div>
+            <div class="project">
+                <button class="RPSshow"><!--rock papper scissors-->
+                    <img src="imgs/market.PNG" alt="rps">
+
+            </div>
+            <div class="project weather">
+                <button class="weatherButt">
+                    <img src="imgs/pat.jpg" alt="rps">
+            </button>
+            </div>
+
+            <div id="projectsln2">
+
+
+                <div class="marketing"></div>
+            
+                    
+                <div class="interview"></div>
+            
+                <div class="idkyet"> </div>
+            
+            </div>
+
+        </div>
+
+
+
+        <div class="RPSgame">
+            <button class="close"> <p>X</p></button>
+            <span class="gameManager"></span>
+            <div class="rock"><img src="imgs/rock - Copy.jpg" alt="roick"></div>
+            <div class="paper"><img src="imgs/PAPER.jpg" alt="apper"></div>
+            <div class="scissors"><img src="imgs/scissors.jpg" alt="scissors"></div>
+        </div>
+
+        <div class="TTT"><!--Tic Tac Toe-->
+            <button class="close"> <p>X</p></button>
+            <button class="RESET"> <p>RESET</p></button>
+            <span class="gameManager"></span>
+            <div><button class="TTTbutt" id="square1"><p id="s1"></p></button></div>
+            <div><button class="TTTbutt" id="square2"><p id="s2"></p></button></div>
+            <div><button class="TTTbutt" id="square3"><p id="s3"></p></button></div>
+            <div><button class="TTTbutt" id="square4"><p id="s4"></p></button></div>
+            <div><button class="TTTbutt" id="square5"><p id="s5"></p></button></div>
+            <div><button class="TTTbutt" id="square6"><p id="s6"></p></button></div>
+            <div><button class="TTTbutt" id="square7"><p id="s7"></p></button></div>
+            <div><button class="TTTbutt" id="square8"><p id="s8"></p></button></div>
+            <div><button class="TTTbutt" id="square9"><p id="s9"></p></button></div>
+
+        </div><!--Tic Tac Toe-->
+
+        
+
+
+
+<!--project section-->
+
+
+        <div class="contact">
+            
+            <h1 class="contactSectTitle">CONNECT WITH ME</h1>
+
+
+
+            <div id="social">
+                <div><a href="https://github.com/ethant2021" rel="noopener noreferrer" target="_blank"><img src="imgs/GITHUB.png" alt="github">
+                    <p class="git">@ethant2021</p></a></div>
+                <div><a href="https://www.linkedin.com/in/ethan-thackery-a22bb71b1/" rel="noopener noreferrer" target="_blank"><img src="imgs/LINKED IN.png" alt="linkedin">
+                    <p class="linked">@Ethan Thackery</p></a></div>
+                <div><a href="https://www.instagram.com/ethant2021/" rel="noopener noreferrer" target="_blank"><img src="imgs/INSTA.png" alt="">
+                    <p class="insta">@ethant2021</p></a></div>
+                <div><a href="https://twitter.com/EthanThackery" rel="noopener noreferrer" target="_blank"><img src="imgs/twitter.png" alt="">
+                    <p class="twitt">@EthanThackery</p></a></div>
+                <div><a href="https://docs.google.com/document/d/1yJGw-MMnpwt0eY3GYyS9_zc436b-grITZwujDvI-jdY/edit?usp=sharing" rel="noopener noreferrer" target="_blank"><img src="imgs/docs.png" alt="">
+                    <p class="resume">Resume</p></a></div>
+            </div>
+            
+
+
+
+
+               
+                                       <div class="contactForm"> <form
+                        action="https://formspree.io/f/mknkvbgz"
+                        method="POST"
+                        >
+                        <label class="Email">
+                            Email:
+                            <input class="address" type="email" name="_replyto" placeholder="Email">
+                        </label>
+                        <label class="emailName">
+                            Name:
+                            <input class="nameMsg" name="message" type="text" placeholder="Name">
+                        </label>
+                        <label class="emailContents">
+                            Message:
+                            <textarea class="emailcontentsbox" name="message" placeholder="Write me anything."></textarea>
+                        </label>
+
+                        <!-- your other form fields go here -->
+
+                        <button class="formSubmit" type="submit">Send</button>
+                        </form>
+                    </div>
+
+        </div>
+
+        <div class="about">
+            
+            <h1>ABOUT</h1>
+            <div class="bioHolder">
+                <p>
+                    <ul><li><span>My name is Ethan Thackery</span>, and I’m a freshman in the exploratory studies program at Purdue University. 
+                    </li><li><span>I love to solve problems.</span>  Whether it’s finding the most elegant way to write a line of code 
+                    or the  best practice to implement a new feature or design element,  I love the challenge of finding a way  and
+                    discovering solutions. 
+                </li><li><span>I am passionate about technology.</span> Whether it be engineering creating physical things, or it is 
+                 developing a new program to solve problems. 
+                </li><li> <span>I am a leader.</span> Naturally I am a very shy,  introverted person, however I have worked towards 
+                overcoming this, and presenting myself as a leader.</li>  
+                <li><span>I am determined.</span>Although I didn't recieve direct admmision <span>I will</span> major in computer science,
+                     and pursue my dream of being one of the best programmers. </li>
+                     <li id="centeredQuote">"Work smarter not harder" <span> - Morgenstern</span></li>
+                     
+            </ul>
+            </p>
+            </div>
+
+
+            <img src="imgs/Ethan1cropped.jpg" alt="ethan">
+        
+        </div>
+
+
+
+        <div class="certs">
+            <h1>SKILLS</h1>
+            <div class="languages">
+                <ul>
+                    <li class="title">Languages</li>
+                    <li> C# </li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+            <div class="libs">
+                <ul>
+                    <li class="title">Libraries</li>
+                    <li>Selenium</li>
+                    <li>TestStack White</li>
+                    <li>Three.js</li>
+                    <li>JQuery</li>
+                    <li>Xamarin Forms</li>
+                </ul>
+            </div>
+            <div class="altSkills">
+                <ul>
+                    <li class="title">Software</li>
+                    <li>Autodesk 3D CAD</li>
+                    <li>Microsoft Certified</li>
+                    <li>Sony Vegas</li>
+                </ul>
+
+            </div>
+            <div class="miscExp">
+            <ul>
+                <li class="title">Leadership</li>
+                <li>4x Years IT Department</li>
+                <li>3x Honors Diplomas</li>
+                <li>7x Years VEX Robotics</li>
+                <li>TSA State Officer</li>
+            </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <script src="javascript/background.js"></script>
+        <script src="javascript/introTest.js"></script>
+        <script src="javascript/scollChecker.js"></script>
+        <script src="javascript/jsPanel.js"></script>
+        <script src="javascript/tic tac toe.js"></script>
+        <script src="javascript/mainCycle.js"></script>
+        <script src="javascript/rockpaper.js"></script>
+        <script src="javascript/weatherAPI.js"></script>
+
+
+    </div>
+
+        
+        <!-- <script src="javascript/hoverDetection.js"></script> -->
+    </body>
+</html>
